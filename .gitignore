@@ -1,0 +1,22 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+out/
+benchmark_out/
+
+# Compiler and tool artefacts
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
